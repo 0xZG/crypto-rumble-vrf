@@ -1,0 +1,15 @@
+{
+  "name": "vrf-server-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.9",
+    "@grpc/proto-loader": "^0.7.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
